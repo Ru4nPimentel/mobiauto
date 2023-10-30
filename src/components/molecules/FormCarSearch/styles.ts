@@ -16,12 +16,14 @@ export const FormCar= styled(Box)`
   margin-top: 8px;
   margin-left:8px;
   margin-right:8px;
+  background-color: #fff;
 `;
 
 
 export const BtnTeste= styled(Button)`
   background-color: #7d35ce;
   color: #fff;
+  font-size: 16px;
   margin-top: 16px;
   padding: 10px 24px;
   text-transform: none;

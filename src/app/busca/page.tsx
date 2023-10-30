@@ -4,7 +4,7 @@ import React from "react";
 
 const Busca = () => {
   return (
-    <MainContainer>
+    <MainContainer className="grayLightBg">
       <CarSearch />
     </MainContainer>
   );

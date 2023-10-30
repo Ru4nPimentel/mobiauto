@@ -51,6 +51,9 @@ input {
 .grayBg{
   background-color: rgb(66, 66, 66);
 }
+.grayLightBg{
+  background-color: #f1f1f1;
+}
 
 .link{
   color: #fff;
