@@ -17,13 +17,14 @@ const ResultCard = () => {
   return (
     <S.CarContainer>
       <S.BoxValue>
-        <Title>Tabela Fipe</Title>
-        <SubTitle>
+        <Title className="grayColor">Tabela Fipe</Title>
+        <SubTitle className="grayColor">
           Marca: {resultData.data?.Marca} <br /> Modelo:
           {resultData.data?.Modelo}
           <br /> Ano: {resultData.data?.AnoModelo}
         </SubTitle>
         <S.BoxPrice>{resultData.data?.Valor}</S.BoxPrice>
+        <p className="grayColor">Este é o preço de compra do veículo</p>
       </S.BoxValue>
     </S.CarContainer>
   );

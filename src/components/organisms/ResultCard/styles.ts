@@ -20,6 +20,11 @@ export const BoxValue = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    p{
+      font-size: 14px;
+      margin-top: 10px;
+      color: #91909c;
+    }
 `;
 
 export const BoxPrice = styled.div`
