@@ -1,0 +1,53 @@
+body,
+h1,
+h2,
+ul,
+ul,
+menu,
+li,
+p,
+a {
+  margin: 0px;
+  padding: 0px;
+  font-family: var(--font-roboto), sans-serif;
+}
+
+a:focus,
+input:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+ul, menu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  &:focus {
+    outline-offset: none;
+    border: none;
+    outline: none;
+  }
+}
+
+
+.grayColor{
+  color: rgb(66, 66, 66);
+}
+
+.grayBg{
+  background-color: rgb(66, 66, 66);
+}
