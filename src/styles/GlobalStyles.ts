@@ -18,3 +18,17 @@ export const SubTitle = styled.h2`
     margin-top: 8px;
     font-weight: 500;
 `;
+
+export const BoxContainer = styled.div`
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  height: calc(100vh - 156px);
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(68, 67, 188);
+`;
+
+

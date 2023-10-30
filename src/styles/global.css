@@ -51,3 +51,17 @@ input {
 .grayBg{
   background-color: rgb(66, 66, 66);
 }
+
+.link{
+  color: #fff;
+  background-color: rgb(0, 180, 170);
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: ease 0.3s;
+  &:hover{
+    background-color: #fff;
+    color: rgb(0, 180, 170);
+  }
+}

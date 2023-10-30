@@ -1,9 +1,14 @@
-import { MainContainer } from "@/styles/GlobalStyles";
+import { BoxContainer, MainContainer } from "@/styles/GlobalStyles";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <MainContainer>
-      <p>Home</p>
+      <BoxContainer>
+        <Link href="/busca" className="link">
+          Buscar Veículo
+        </Link>
+      </BoxContainer>
     </MainContainer>
   );
 }
