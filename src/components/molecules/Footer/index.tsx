@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <S.Footer className="grayBg">
       <span>
-        <Logo />
+        <Logo light={true} />
       </span>
     </S.Footer>
   );
