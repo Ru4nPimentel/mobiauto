@@ -1,3 +1,7 @@
+This project was created with node v18.18.1
+
+To run the project, use the npm run dev command
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
