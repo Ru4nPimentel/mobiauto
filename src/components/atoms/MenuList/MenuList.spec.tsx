@@ -13,7 +13,7 @@ describe("MenuList Component", () => {
     },
   ];
 
-  it("shoulder render component", () => {
+  it("should render component", () => {
     render(<MenuList list={menuList} className="teste" />);
 
     expect(screen.getByText("carro")).toBeInTheDocument();
