@@ -23,6 +23,10 @@ const CarSearch = () => {
     setYear(null);
   }, [brand]);
 
+  useEffect(() => {
+    setYear(null);
+  }, [model]);
+
   return (
     <S.CarContainer>
       <Title className="grayColor">Tabela Fipe</Title>
